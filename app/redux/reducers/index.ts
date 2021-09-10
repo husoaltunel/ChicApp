@@ -1,10 +1,11 @@
 import { combineReducers } from "redux";
-import CategoryListReducer from "./CategoryListReducer";
-import changeCategoryReducer from "./ChangeCategoryReducer";
+import getShoppingItemsSuccessReducer from "./GetShoppingItemsSuccessReducer";
+import getShoppingItemDetailSuccessReducer from "./GetShoppingItemDetailSuccessReducer";
+
 
 const rootReducer = combineReducers({
-    changeCategoryReducer,
-    CategoryListReducer
+    getShoppingItemsSuccessReducer,
+    getShoppingItemDetailSuccessReducer
 })
 
 export default rootReducer;

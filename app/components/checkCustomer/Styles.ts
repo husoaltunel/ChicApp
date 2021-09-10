@@ -9,7 +9,7 @@ export const checkCustomerStyles = StyleSheet.create({
         flex:1
     },
     inputView : {               
-        width:window.width/1.2,
+        width:window.width/1.2
     },
     searchButton : {
         backgroundColor:"#7dd3fc",
@@ -24,6 +24,25 @@ export const checkCustomerStyles = StyleSheet.create({
     },
     text : {
         fontWeight:"bold"
+    },
+    cardsVStack : {
+        margin:15
+    },
+    
+    smallCard : {
+        width : "49%"
+    },
+    boxAverage : {
+        width : "49%",
+        marginVertical:5
+    },
+    boxAverageHeaderText : {
+        color:"#4338ca",
+        textAlign:"center"
+    },
+    boxAverageBodyText : {
+        textAlign:"center"
     }
+   
 
 });

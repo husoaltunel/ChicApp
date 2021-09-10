@@ -7,9 +7,6 @@ export const mainStyles = StyleSheet.create({
     style:{
         flex:1,
         fontSize:16
-    },
-    textStyle: {
-      
     }
 
 });

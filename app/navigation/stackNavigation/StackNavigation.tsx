@@ -6,13 +6,14 @@ import BottomTabNavigation from '../tabNavigation/BottomTabNavigation';
 import CheckCustomer from '../../components/checkCustomer/CheckCustomer';
 
 
+
 const Stack = createNativeStackNavigator();
 
 export default function StackNavigation() {
 
 
     return (
-        <Stack.Navigator initialRouteName='CheckCustomer'
+        <Stack.Navigator initialRouteName='Login'
             screenOptions={{
                 headerStyle: {
                     backgroundColor: '#f59e0b',

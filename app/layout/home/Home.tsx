@@ -1,7 +1,6 @@
 import { Center, Wrap } from 'native-base'
 import React, { Component } from 'react'
-import { Button, TouchableOpacity, View } from 'react-native'
-import CustomText from '../../globals/toolbox/CustomText'
+import { Button, Text, TouchableOpacity, View } from 'react-native'
 import Icon from '../../../node_modules/react-native-vector-icons/MaterialIcons'
 import { default as IconFeather } from '../../../node_modules/react-native-vector-icons/Feather'
 import { homeStyles } from './Styles'
@@ -18,7 +17,7 @@ export default function Home({navigation}) {
                             _text={{ color: 'black', fontWeight: "bold", fontSize: 15 }}
                         >
                             <Icon name="person-search" size={90} />
-                            <CustomText style={homeStyles.centerText} text="Müsteri Sorgulama" />
+                            <Text style={homeStyles.centerText}>Müşteri Sorgulama</Text>
                         </Center>
                     </TouchableOpacity>
                 </View>
@@ -30,7 +29,7 @@ export default function Home({navigation}) {
                             _text={{ color: 'black', fontWeight: "bold", fontSize: 15 }}
                         >
                             <Icon name="shopping-cart" size={90} />
-                            <CustomText style={homeStyles.centerText} text="Ürün Sorgulama" />
+                            <Text style={homeStyles.centerText}>Ürün Sorgulama</Text>
                         </Center>
                     </TouchableOpacity>
                 </View>
@@ -42,7 +41,7 @@ export default function Home({navigation}) {
                             _text={{ color: 'black', fontWeight: "bold", fontSize: 15 }}
                         >
                             <IconFeather name="arrow-up-right" size={90} />
-                            <CustomText style={homeStyles.centerText} text="KPI" />
+                            <Text style={homeStyles.centerText}>KPI</Text>
                         </Center>
                     </TouchableOpacity>
                 </View>
@@ -54,7 +53,7 @@ export default function Home({navigation}) {
                             _text={{ color: 'black', fontWeight: "bold", fontSize: 15 }}
                         >
                             <Icon name="person-search" size={90} />
-                            <CustomText style={homeStyles.centerText} text="Dökümanlar" />
+                            <Text style={homeStyles.centerText}>Dökümanlar</Text>
                         </Center>
                     </TouchableOpacity>
                 </View>
